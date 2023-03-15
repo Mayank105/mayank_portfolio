@@ -1,0 +1,47 @@
+.main-card{
+    width: 100%;
+    padding: 6rem 1 rem;
+    background: aqua;
+
+}
+.card-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    justify-items: center;
+}
+.card{
+    border: 2px solid black;
+    color: aliceblue;
+    text-align: center;
+ 
+    padding:1rem ;
+}
+.card h2{
+  font-size: 1.4rem;  
+  padding: 1rem;
+}
+.card p{
+    font-size:x-large;
+    padding: 1rem 0 1rem 0;
+}
+.card .btn{
+    display: block;
+    width: 100%;
+    margin: 2rem auto;
+}
+.card:hover{
+    background-color: rgb(5, 187, 200);
+}
+@media screen and (max-width:740px) {
+    .card-container{
+        max-width: 100%;
+        margin: auto;
+        /* display: grid; */
+        grid-template-columns:1fr;
+        /* grid-gap: 40px; */
+    }   
+}
+

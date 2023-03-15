@@ -1,0 +1,54 @@
+/* {{https://smtpjs.com/v3/smtp.js}} */
+.contactfooter{
+    position:relative;
+    top: 22rem;
+}
+.contact-backgroundimg{
+   
+    content: "";
+    background: url("https://st4.depositphotos.com/13193658/28578/i/450/depositphotos_285781436-stock-photo-selective-focus-happy-operator-typing.jpg");
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+.heading{
+    position: relative;
+    bottom: 4rem;
+    
+    height: 30%;
+   
+   
+    /* font-weight: bolder */
+}
+
+@media screen and (max-width:640px) {
+    .contact-backgroundimg{
+        height: 100%; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* .contactfooter{
+        position: relative;
+        top: 0rem;
+    } */
+}
+/* @media screen and (max-width:1920px)and (min-width:1599px) {
+    .contactfooter{
+      position: relative;
+      bottom: 10rem;
+    }
+} */
+
+@media screen and (max-width:1380px)and (min-width:540px) {
+.contactfooter .footer{
+    /* visibility: collapse; */
+    position: relative;
+    top: 0
+    ;
+}
+}

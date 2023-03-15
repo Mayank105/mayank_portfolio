@@ -1,0 +1,163 @@
+
+.profileimg{
+    position: relative;
+    
+    height: 50vh;
+    border-radius: 10%;
+    margin: 3%;
+    border: 7px darkcyan solid;
+    /* z-index: auto; */
+    
+}
+.hero{
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+
+}
+.sideboxe1{
+    align-items: center;
+    text-align: center;
+    display: initial;
+    position: absolute;
+    background-color: #088dff;
+    height: 42vh;
+    width: 23vw;
+    top: 28%;
+    left: 0%;
+    border-radius: 0% 56% 56% 0%;
+}
+.sideboxe2{
+    align-items: center;
+    display: initial;
+    position: absolute;
+    background-color: #088dff;
+    height: 42vh;
+    width: 23vw;
+    top: 28%;
+    right: 0;
+    border-radius: 56% 2% 0% 56%;
+}
+.introportion{
+    position: relative;
+    top: 32%;
+    /* height: 51vh; */
+    width: 91%;
+
+}
+.intromyself{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.para{
+    color: #0c0c73;
+    font-size: x-large;
+    padding: 4%;
+}
+.programmer{
+    height: 296px;
+    position: relative;
+    border-radius: 0px;
+    top: 10%;
+    border: aliceblue;
+}
+
+@media screen and (max-width:1600px){
+    .profileimg{
+        max-width: 80vw;
+    }
+    .sideboxe1{
+        position: absolute;
+        height: 40vh;
+        /* width: 25%; */
+    }
+   .introportion{
+   position: relative;
+   top: 2rem;
+   }
+
+}
+@media screen and (max-width:1380px){
+    .sideboxe1{
+        /* display: initial; */
+    position: absolute;
+    background-color: #088dff;
+    height: 40vh;
+    width: 92vw;
+    top: 100%;
+    border-radius: 9% 9% 9% 9%;
+    left: 4%;
+    }
+
+    .sideboxe2{
+        /* display: initial; */
+       
+    position: absolute;
+    
+    background-color: #088dff;
+    height: 40vh;
+    width: 92vw;
+    top: 156%;
+    border-radius: 9% 9% 9% 9%;
+    left: 4%;
+    /* z-index: -1; */
+    
+    }
+    
+    
+    .hero{
+        position: relative;
+        top: 90px;
+    }
+    .programmer{
+        height: 246px;
+        position: relative;
+        border-radius: 0px;
+        top: 10%;
+        border: aliceblue;
+    }
+}
+@media screen and (max-width:415px){
+    /* img {
+        position: relative;
+       
+        height: 47vh;
+        
+        margin: 3%;
+        border: 7px darkcyan solid
+} */
+.sideboxe2 {
+    /* display: initial; */
+    position: absolute;
+    background-color: #088dff;
+    height: 41vh;
+    width: 92vw;
+    top: 168%;
+    border-radius: 9% 9% 9% 9%;
+    left: 4%;
+}
+.sideboxe1 {
+    /* display: initial; */
+    position: absolute;
+    background-color: #088dff;
+    height: 40vh;
+    width: 92vw;
+    top: 100%;
+    border-radius: 9% 9% 9% 9%;
+    left: 4%;
+}
+.programmer {
+    height: 213px;
+    position: relative;
+    border-radius: 0px;
+    top: 10%;
+    border: aliceblue;
+}
+.introportion {
+    position: relative;
+    top: 21%;
+    /* height: 51vh; */
+    width: 91%;
+    left: 4%;
+}
+}

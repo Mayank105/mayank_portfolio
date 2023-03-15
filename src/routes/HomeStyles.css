@@ -1,0 +1,16 @@
+.homefooter{
+position: relative;
+top:5em;
+}
+@media screen and (max-width:1380px)  {
+    .homefooter{
+top: 20rem ;
+}
+}
+
+
+/* @media screen and (max-width:1000px) and (min-width:540px){
+    .homefooter{
+        top: -30rem ;
+        } 
+} */

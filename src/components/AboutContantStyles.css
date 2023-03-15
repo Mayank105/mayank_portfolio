@@ -1,0 +1,345 @@
+
+.aboutcontant{
+    display: flex;
+    
+}
+.certification-section{
+    background: #6084de;
+    position: absolute;
+    /* margin: 11%; */
+    padding: 2rem;
+    /* margin-left: 1rem; */
+    top: 71%;
+    border-radius: 0% 32% 32% 0%;
+    width: 40%;
+}
+.certification-section h2{
+font-size: 2.4rem;
+}
+.certification-section li{
+    font-size: 1.4rem;
+    padding:0.7rem ;
+    font-weight:bolder;
+    color: #331c7a;
+}
+.languages-section
+{
+    
+    background: #6084de;
+    border-radius: 32% 0% 0% 31%;
+    background: #6084de;
+    position: relative;
+    width: 40vw;
+    padding: 2%;
+    top: 30rem;
+    border-radius: 0% 32% 32% 0%;
+    height: 24vh;
+   
+}
+.languages-section h2{
+    font-size: 2.4rem;
+    
+}
+.languages-section li{
+    font-size: 1.4rem;
+    padding:0.7rem ;
+    font-weight:bolder;
+    color: #331c7a;
+}
+.skill-section
+{
+    top: 29%;
+    position: absolute;
+    
+    background: #6084de;
+    border-radius: 0% 32% 32% 0%;
+    width: 40%;
+    height: 40%;
+   
+    left: 0;
+    top: 75rem;
+    padding: 4rem;
+}
+.skill-section h2{
+    font-size: 2.4rem;
+}
+.skill-section li{
+    font-size: 1.4rem;
+    padding:0.7rem ;
+    font-weight:bolder;
+    color: #331c7a;
+}
+.skillcontant{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 11%;
+}
+.academicproj-section{
+    position: absolute;
+    /* align-content: center; */
+    /* text-align: center; */
+    background: #6084de;
+    border-radius: 0% 32% 32% 0%;
+    width: 40%;
+    height: 31%;
+    /* height: 100%; */
+    
+    /* margin-left: 0rem; */
+    left: 0;
+    top: 100rem;
+    padding: 4rem;
+   
+}
+.academicproj-section h2{
+    font-size: 2.4rem;
+}
+.academicproj-section p{
+    font-size: 1.4rem;
+    padding:0.7rem ;
+    font-weight:bolder;
+    color: #331c7a;
+}
+.academicproj-section .linktoproject {
+    position: relative;
+    width: 20%;
+  text-align: center;
+  left: 40%;
+    /* text-align: center; */
+background-color: blue;
+padding: 1%;
+color: white;
+border: 3px solid black;
+
+}
+.academicproj-section .linktoproject:hover{
+    color: black;
+    background-color: aquamarine;
+    transition: 0.3s;
+}
+.certificationimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:70rem;
+    background:#6084de;
+    height: 90%;
+    width: 20vw;
+}
+.certificationimg img{
+    height: 15rem;
+}
+.competencies-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:70rem;
+    background:#6084de;
+    height: 100%;
+    width: 20vw;
+}
+.competencies-img img{
+    height: 10rem;
+}
+.skill-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:70rem;
+    background:#6084de;
+    top: 0rem;
+    height: 100%;
+    width: 20vw;
+}
+.skill-img img{
+    height: 15rem;
+    
+}
+.project-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:70rem;
+    background:#6084de;
+    top: 0rem;
+    height: 100%;
+    width: 20vw;
+}
+.project-img img{
+    height: 15rem;
+}
+.certification-section:hover{
+    width:50% ;
+    transition: 0.5s ease-out;
+}
+.languages-section:hover{
+    width:50% ;
+    transition: 0.5s ease-out;
+}
+.skill-section:hover{
+    width:50% ;
+    transition: 0.5s ease-out;
+}
+.academicproj-section:hover{
+    width:50% ;
+    transition: 0.5s ease-out;
+}
+@media screen and (max-width:1000px)and (min-width:740px) {
+    /* .certification-section{
+        top: 66%;
+    } */
+    .skill-section{
+        top: 139%;
+    }
+    .academicproj-section
+    {
+        top: 172%;
+    }
+   
+    
+    
+
+}
+@media screen and (max-width:1700px)and (min-width:640px){
+    .languages-section{
+        top: 32rem; 
+       width: auto;
+       height: 15rem;
+       /* bottom: 11%; */
+    }
+    .academicproj-section{
+        /* width: 50%; */
+        height: auto;
+    }
+}
+@media screen and (max-width:1000px) {
+    .skill-section{
+top: 80rem;
+    }
+    .academicproj-section{
+        
+       top: 105rem;
+    }
+    .languages-section{
+        top: 35rem;
+    }
+}
+@media screen and (max-width:961px)and (min-width:640px){
+    .certification-section{
+        width: 54%;
+            }
+            .languages-section{
+                width: 54%;   
+                
+            }
+            .skill-section{
+                width: 54%; 
+            }
+            .academicproj-section{
+                width: 54%;
+            }
+}
+@media screen and (max-width:715px)and (min-width:640px){
+    .languages-section{
+       top: 34rem;
+            }
+}
+@media screen and (max-width:665px)and (min-width:640px){
+    .skill-section{
+        width: 56%;
+    }
+    /* .academicproj-section{
+        width: 70%;
+    } */
+}
+@media screen and (max-width:650px)and (min-width:640px){
+    .academicproj-section{
+        width: 70%;
+    }
+}
+@media screen and (max-width:1420px)and (min-width:1041px){
+.certificationimg,.skill-img,.competencies-img,.project-img{
+    left:50rem;
+    width: auto;
+}
+}
+@media screen and (max-width:1040px)and (min-width:845px){
+    .certificationimg,.skill-img,.competencies-img,.project-img{
+        left:40rem;
+        width: auto;
+    }
+}
+@media screen and (max-width:840px)and (min-width:640px){
+    .certificationimg,.skill-img,.competencies-img,.project-img{
+       display: none;
+       
+    }
+    .languages-section,.skill-section,.academicproj-section,.certification-section{
+        width: 90%;
+    }
+    .languages-section:hover{
+        width: 95%;
+    }
+    .certification-section:hover{
+        width: 95%;
+    }
+    .academicproj-section:hover{
+        width: 95%;
+    }
+    .skill-section:hover
+    {
+        width: 95%;
+    }
+}
+@media screen and (max-width:715px){
+    .languages-section,.skill-section,.academicproj-section,.certification-section{
+        width: 90%;
+    }
+    .skill-section:hover
+    {
+        width: 100%;
+    }
+    .languages-section:hover{
+        width: 100%;
+    }
+    .certification-section:hover{
+        width: 100%;
+    }
+    .academicproj-section:hover{
+        width: 100%;
+    }
+    .academicproj-section{
+        height: auto;
+    }
+}
+@media screen and (max-width:540px)and (min-width:300px){
+    .certificationimg,.competencies-img,.project-img,.skill-img{
+        top: 145%;
+       height: 10%;
+        left: 50%;
+     }
+     .languages-section{
+        height: auto;
+        width: auto;
+        top:55rem;
+     }
+     .skill-section{
+        height: auto;
+        width: auto;
+        top:120rem ;
+     }
+     .academicproj-section{
+        height: auto;
+        width: auto;
+        top:170rem ;
+     }
+     .certification-section{
+        height: auto;
+        width: auto;
+        top:40rem ;
+     }
+}
