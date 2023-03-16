@@ -8,12 +8,14 @@ import Projects from "./routes/Projects";
 function App() {
   return (
     <div >
+    {/* <BrowserRouter Basename={process.env.PUBLIC_URL}> */}
      <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<Contact/>} />
       <Route path="/projects" element={<Projects/>} />
      </Routes>
+     {/* </BrowserRouter> */}
     </div>
   );
 }
