@@ -11,7 +11,7 @@ const Contact = () => {
     <div>
       <Navbar/>
       <div className="contact-backgroundimg">
-           <Heroimg2  heading="CONTACT US" text="Let's get connected"/>
+           <Heroimg2  heading="CONTACT US" text="Let's connect"/>
            <div className="heading-text"> </div>
       </div>
 
